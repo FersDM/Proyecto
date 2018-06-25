@@ -1,8 +1,0 @@
-INDEX VERSION 1.127+D:\Repositorio\ProyectoAlquiler\.metadata\.plugins\org.eclipse.jdt.core
-3469974380.index
-1473956566.index
-2461555211.index
-2394470129.index
-2291933689.index
-2331540410.index
-14526675.index
