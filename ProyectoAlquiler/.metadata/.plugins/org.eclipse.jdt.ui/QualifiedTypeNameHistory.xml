@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Arreglos.ArregloCliente"/>
+<fullyQualifiedTypeName name="gui.Cliente"/>
+<fullyQualifiedTypeName name="clases.Cliente"/>
+<fullyQualifiedTypeName name="Arreglos.ArregloConductor"/>
+<fullyQualifiedTypeName name="clases.Conductor"/>
+<fullyQualifiedTypeName name="Arreglos.ArregloVehiculo"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.VerifyError"/>
+<fullyQualifiedTypeName name="clases.Vehiculo"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.rmi.Remote"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT"/>
+<fullyQualifiedTypeName name="clase.Libro"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,48 @@
+package arreglo;
+
+import java.rmi.Remote;
+import java.util.ArrayList;
+
+import clase.Libro;
+
+public class ArregloLibros {
+
+	// Atributos privados
+	private ArrayList<Libro> al;
+
+	public ArregloLibros() {
+		al = new ArrayList<Libro>();
+		
+	}
+
+	public void adicionar(Libro x) {
+		al.add(x);
+
+	}
+	public int tamaño(){
+		return al.size();
+	}
+
+	public Libro obtener(int x){
+		return al.get(x);
+	}
+	
+	public Libro buscarLibro (int id){
+		for (int i = 0; i < tamaño(); i++) {
+			if(obtener(i).getId()==id)
+				return obtener(i);
+			
+		}
+		return null;
+	}
+	
+	public void eliminarLibro(int id){
+	     Libro x=buscarLibro(id);
+	     
+	     if(x!=null)
+	    	 al.remove(x);
+	}
+	
+	
+	
+}
