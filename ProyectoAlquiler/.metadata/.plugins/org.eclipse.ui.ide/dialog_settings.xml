@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\FernandoDM\Desktop\AED_Semana_09"/>
+			<item value="C:\Users\FernandoDM\Desktop\Nueva carpeta (7)\Solución Proyecto AED 2016 2"/>
+			<item value="C:\Users\FernandoDM\Desktop\Repaso\AED_Repaso4"/>
+			<item value="C:\Users\FernandoDM\Desktop\Tarea-domigno\Virtual 4"/>
+			<item value="C:\Users\FernandoDM\Desktop\Nueva carpeta (7)\Solución Proyecto AED 2017 1"/>
+			<item value="C:\Users\FernandoDM\git\ProyectClinica-Cibertec-II"/>
+			<item value="C:\Users\FernandoDM\Desktop\Nueva carpeta (4)\PROYECTO2ALG"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

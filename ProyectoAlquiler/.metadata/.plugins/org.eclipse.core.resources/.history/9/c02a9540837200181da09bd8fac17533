@@ -1,0 +1,72 @@
+package arreglo;
+
+import java.util.ArrayList;
+
+import clase.Libro;
+
+public class ArregloLibros {
+
+	// Atributos privados
+	private ArrayList<Libro> al;
+
+	public ArregloLibros() {
+		al = new ArrayList<Libro>();
+		
+		adicionar(new Libro(1001,"100 AÑOS DE SOLEDAD",4,200));
+		adicionar(new Libro(1002,"PLATERO Y YO",4,100));
+		adicionar(new Libro(1003,"RIMAS Y LEYENDAS",4,400));
+		adicionar(new Libro(1004,"NINFOMANA",4,500));
+		adicionar(new Libro(1005,"CONDOR PASA",4,600));
+		adicionar(new Libro(1006,"BLANCA NIEVE Y LOS 12 ENANOS",4,700));
+		adicionar(new Libro(1007,"MARIA Y SUS HERMANOS",4,800));
+		adicionar(new Libro(1008,"SABRINA LA MALDITA",4,900));
+		
+	}
+
+	public void adicionar(Libro x) {
+		al.add(x);
+
+	}
+	public int tamaño(){
+		return al.size();
+	}
+
+	public Libro obtener(int x){
+		return al.get(x);
+	}
+	
+	public Libro buscarLibro (int id){
+		for (int i = 0; i < tamaño(); i++) {
+			if(obtener(i).getId()==id)
+				return obtener(i);
+			
+		}
+		return null;
+	}
+	
+	public void eliminarLibro(int id){
+	     Libro x=buscarLibro(id);
+	     
+	     if(x!=null)
+	    	 al.remove(x);
+	}
+	
+	public int codigoCorrelativo() {
+		if (tamaño() == 0)
+			return 10001;
+		else
+			return obtener(tamaño()-1).getId() + 1;		
+	}
+	
+	public int buscarId(int id){
+		
+		for (int i = 0; i < tamaño(); i++) {
+			if(obtener(i).getId()==id);
+				
+		}
+		return id;
+		
+	}
+	
+	
+}
