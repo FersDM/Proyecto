@@ -1,1 +1,2 @@
 abc-123;soso;rojo;1201;1;
+AFD-234;TUCSON;ASUL;2018;0;
